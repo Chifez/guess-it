@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+
+}
+
+section{
+  width:100vw;
+  height: 100vh;
+  color: grey;
+  background-color:  #222;
+  cursor: pointer;
+}
+
+header{
+  position: relative;
+  display:flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 35%;
+  border-bottom: 7px solid white;
+}
+header .again{
+  position:absolute;
+  left:15px;
+  top:20px;
+  padding: 17px 25px;
+  border:transparent;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  /* width:30px;
+  height:20px; */
+}
+ header .bold{
+   position: absolute;
+   left:37%;
+   top:40%;
+   font-size: 2.5rem;
+   text-transform: capitalize;
+   color: white;
+   font-family: sans-serif;
+   font-weight: bolder;
+ }
+
+ .between{
+   position: absolute;
+   right: 10px;
+   top:20px;
+   color:white;
+   font-family: sans-serif;
+   font-size:0.9rem;
+ }
+
+ .number{
+   position: absolute;
+   top:70%;
+   left:45%;
+   padding:35px 60px;
+   background-color: white;
+ }
+
+ .number p{
+   font-size:3.5rem;
+   font-family: sans-serif;
+   color:black;
+ }
+
+ .main{
+   display:flex;
+   justify-content: space-around;
+
+ }
+
+ .main .left{
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+   /* width:50vw; */
+   /* margin-left: 4rem; */
+ }
+
+ .right{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   font-size: 1.2rem;
+   font-family:sans-serif;
+   color:white;
+ }
+
+ input{
+   display: block;
+   background: none;
+   border:4px solid white;
+   margin-top:8rem;
+   margin-right: 18rem;
+   padding:24px 30px;
+   text-align: center;
+   color:white;
+   font-size:3.5rem;
+   width:250px;
+
+
+ }
+
+ input:focus{
+   border:4px solid white;
+   outline:none;
+   caret-color: white;
+ }
+
+ .check{
+   display: block;
+   border: transparent;
+   padding: 23px 35px;
+   margin-right: 18rem;
+   margin-top: 3rem;
+   text-transform: capitalize;
+   font-size: 1.2rem;
+ }
