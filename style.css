@@ -167,7 +167,10 @@ header .again{
     font-size:2rem;
     width:150px;
   }
-
+ .start{
+  font-size: 1.2rem;
+  font-weight: 700;
+ }
   .check{
     display: block;
     border: transparent;
